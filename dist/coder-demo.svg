@@ -1,0 +1,65 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="840" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08172A"/>
+      <stop offset="1" stop-color="#102B48"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="150" y1="170" x2="770" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E233B"/>
+      <stop offset="1" stop-color="#122E4C"/>
+    </linearGradient>
+    <linearGradient id="hoodie" x1="360" y1="320" x2="560" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202942"/>
+      <stop offset="1" stop-color="#151C2F"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="403" y1="205" x2="510" y2="352" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0B98F"/>
+      <stop offset="1" stop-color="#D9956E"/>
+    </linearGradient>
+    <filter id="glow" x="-100" y="-100" width="1100" height="900" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="700" rx="24" fill="url(#bg)"/>
+  <circle cx="140" cy="120" r="90" fill="#2A63FF" fill-opacity="0.15"/>
+  <circle cx="780" cy="110" r="120" fill="#11C8FF" fill-opacity="0.16"/>
+  <circle cx="760" cy="620" r="150" fill="#7C45FF" fill-opacity="0.14"/>
+
+  <rect x="120" y="145" width="660" height="380" rx="24" fill="url(#panel)" stroke="#2E6EA5" stroke-opacity="0.4"/>
+  <rect x="154" y="178" width="295" height="160" rx="12" fill="#0A1B2F" stroke="#2F79B8" stroke-opacity="0.35"/>
+  <rect x="470" y="178" width="275" height="160" rx="12" fill="#0A1B2F" stroke="#2F79B8" stroke-opacity="0.35"/>
+  <rect x="154" y="356" width="591" height="136" rx="12" fill="#0A1B2F" stroke="#2F79B8" stroke-opacity="0.35"/>
+
+  <g filter="url(#glow)">
+    <text x="176" y="215" fill="#6FD4FF" font-family="Inter, Arial" font-size="18">function optimizePortfolio() {'{'}</text>
+    <text x="190" y="243" fill="#9FF9D1" font-family="Inter, Arial" font-size="16">return userExperience + performance;</text>
+    <text x="176" y="270" fill="#6FD4FF" font-family="Inter, Arial" font-size="18">{'}'}</text>
+    <text x="496" y="214" fill="#B5A8FF" font-family="Inter, Arial" font-size="16">[Build Status]</text>
+    <text x="496" y="242" fill="#96FFE0" font-family="Inter, Arial" font-size="15">Deploy: Success</text>
+    <text x="496" y="266" fill="#96FFE0" font-family="Inter, Arial" font-size="15">Tests: 92%</text>
+    <text x="496" y="290" fill="#96FFE0" font-family="Inter, Arial" font-size="15">Latency: 38ms</text>
+  </g>
+
+  <ellipse cx="448" cy="609" rx="140" ry="25" fill="#000" fill-opacity="0.28"/>
+  <path d="M330 584C340 520 356 430 366 380C373 344 391 320 448 320C505 320 523 344 530 380C540 430 556 520 566 584H330Z" fill="url(#hoodie)"/>
+  <path d="M372 382C384 360 403 343 448 343C493 343 512 360 524 382" stroke="#32406A" stroke-width="5"/>
+
+  <rect x="405" y="310" width="85" height="56" rx="20" fill="url(#skin)"/>
+  <ellipse cx="448" cy="251" rx="92" ry="96" fill="url(#skin)"/>
+  <path d="M362 245C368 175 401 138 448 138C495 138 528 175 534 245" fill="#1B233A"/>
+  <path d="M356 244C360 190 388 164 448 164C508 164 536 190 540 244" fill="#2B3554"/>
+
+  <ellipse cx="413" cy="256" rx="11" ry="8" fill="#1A2238"/>
+  <ellipse cx="483" cy="256" rx="11" ry="8" fill="#1A2238"/>
+  <path d="M425 287C438 299 458 299 471 287" stroke="#A56445" stroke-width="4" stroke-linecap="round"/>
+  <rect x="392" y="228" width="112" height="34" rx="17" fill="#1A2740" stroke="#67CFFF" stroke-opacity="0.8"/>
+  <circle cx="413" cy="245" r="4" fill="#7CE3FF"/>
+  <circle cx="482" cy="245" r="4" fill="#7CE3FF"/>
+
+  <text x="300" y="646" fill="#8ED9FF" font-family="Inter, Arial" font-size="24" font-weight="700">Professional Coder • Tech Enthusiast</text>
+</svg>
